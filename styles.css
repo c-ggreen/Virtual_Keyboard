@@ -12,5 +12,41 @@
 }
 .container:hidden{
     bottom: -100%;
-    
+
 }
+    .keyboardKeys{
+        text-align: center;
+    }
+        .keyboardKey{
+            height: 45px;
+            width: 6%;
+            max-width: 90px;
+            margin: 3px;
+            border-radius: 4px;
+            border: none;
+            background-color:rgba(255,255,255,.2) ;
+            color: #fff;
+            font-size: 1.05rem;
+            outline: none;
+            cursor: pointer;
+
+            /* these items center the icon in the key */
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            vertical-align: top;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+            position: relative;
+        }
+        .keyboardKey:active{
+            background-color:rgba(255,255,255,.12) ;
+        }
+        .wideKey{
+            width: 12%;
+        }
+        .extraWideKey{
+            width: 36%;
+            max-width: 500px;
+        }
